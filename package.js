@@ -1,6 +1,6 @@
 {
   "name": "lawer-bot",
-  "version": "BETA",
+  "version": "0.0.1",
   "description": "Bot discord made by tdunguwu",
   "main": "index.js",
   "scripts": {
