@@ -1,0 +1,10 @@
+{
+    "token": "OTMyNjE0NDU3OTQxNjk2NTIy.YeVi5Q.26UY-OIa-HUC5cwZrjH8CKRqcME",
+    "PREFIX": "!",
+    "ver":"BETA",
+    "ADMIN": [
+      "886501844799619072"
+    ],
+    "mongooseConnectionString":"mongodb+srv://tdunguwu:itmetdunguwu@cluster0.xoxvg.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
+    "AUTHOR": "TDUNGUWU"
+  }

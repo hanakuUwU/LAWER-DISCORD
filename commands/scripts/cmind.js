@@ -1,0 +1,21 @@
+
+const Color = "RANDOM", Random = require("srod-v2");
+const Discord = require("discord.js");
+
+module.exports = {
+  name: "changemymind",
+  author: "tdunguwu",
+  aliases: ["cmm","cmind","changemymind"],
+  category: "Image",
+  description: "make a canvas ;-;",
+  usage: "Changemymind <Text>",
+  run: async (client, message, args) => {
+    
+    const Value = args.join(" ");
+    if (!Value || Value.length > 25) return message.channel.send("Vui lòng cung cấp văn bản và chắc chắn rằng nó không dài hơn 25 ký tự!"); 
+
+    const Data = await Random.ChangeMyMind({ Message: Value, Color: Color });
+
+    return message.channel.send(Data);
+  }
+};
